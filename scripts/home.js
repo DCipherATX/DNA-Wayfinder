@@ -36,7 +36,7 @@ function propogateChoices(id) {
       // var li4 = $("<li>").text("I have been separated from my family at the border").attr("data-id", 4).addClass("item i04");
       $("#textChoices").append(li, li2, li3);
       fadeInList();
-      $("#textChoices").fadeTo( "fast", 1 );
+      // $("#textChoices").fadeTo( "fast", 1 );
       window.location.href = "#textChoices";
       break;
 
@@ -47,7 +47,7 @@ function propogateChoices(id) {
       // var li4 = $("<li>").text("I have a family member who has been detained by Customs and Border Patrol").attr("data-id", 8).addClass("item i04");
       $("#textChoices").append(li, li2, li3);
       fadeInList();
-      $("#textChoices").fadeTo( "fast", 1 );
+      // $("#textChoices").fadeTo( "fast", 1 );
       window.location.href = "#textChoices";
       break;
 
