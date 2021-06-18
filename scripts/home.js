@@ -33,10 +33,10 @@ function propogateChoices(id) {
       var li = $("<li>").text("I have entered the country without paperwork.").attr("data-id", 1).addClass("item i01");
       var li2 = $("<li>").text("I am seeking a family-based visa.").attr("data-id", 2).addClass("item i02");
       var li3 = $("<li>").text("I am crossing the border with my family.").attr("data-id", 3).addClass("item i03");
-      // var li4 = $("<li>").text("I have been separated from my family at the border").attr("data-id", 4).addClass("item i04");
-      $("#textChoices").append(li, li2, li3);
+      var li4 = $("<li>").text("I am claiming citizenship through my U.S. citizen parent.").attr("data-id", 11).addClass("item i04");
+      $("#textChoices").append(li, li2, li3, li4);
       fadeInList();
-      // $("#textChoices").fadeTo( "fast", 1 );
+      $("#textChoices").fadeTo( "fast", 1 );
       window.location.href = "#textChoices";
       break;
 
@@ -47,7 +47,7 @@ function propogateChoices(id) {
       // var li4 = $("<li>").text("I have a family member who has been detained by Customs and Border Patrol").attr("data-id", 8).addClass("item i04");
       $("#textChoices").append(li, li2, li3);
       fadeInList();
-      // $("#textChoices").fadeTo( "fast", 1 );
+      $("#textChoices").fadeTo( "fast", 1 );
       window.location.href = "#textChoices";
       break;
 
