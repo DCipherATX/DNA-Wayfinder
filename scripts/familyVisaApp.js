@@ -36,7 +36,7 @@ function fillModal(id) {
       break;
       case "popupNeg":
         $("#modalTitle").text("What happens after negative test result?");
-        $("#modalBody").html(`<p> A negative test result will likely warrant rejection of your visa application.</p><br> <p> You may acquire a copy of your DNA test results by contacting the AABB-approved laboratory that conducted the testing. Visa application rejects are generally not appealable, but you may be able to seek review from the Board of Immigration Appeals if you believe that the decision was made in error based on inaccurate DNA test results.</p>
+        $("#modalBody").html(`<p> A negative test result will likely warrant rejection of your visa application.</p><br> <p> You may acquire a copy of your DNA test results by contacting the AABB-approved laboratory that conducted the testing.</p></br><p> If you believe that your visa application was rejected due to innaccurate DNA test results, you may appeal the decision. For more information on how to file an appeal, click <a href="https://www.uscis.gov/eoir-29" target="_blank">here</a>. </p>
         `);
         break;
       case "popupPos":
@@ -63,7 +63,7 @@ function fillModal(id) {
         break;
     case "popupProfile":
           $("#modalTitle").text("DNA Profile");
-          $("#modalBody").html(`<p> A DNA profile identifies a handful of specific genetic markers from your DNA. These markers can be compared to markers in the same location in other DNA profiles to determine if a genetic match exist between the two. </p> <br> <p> For those who cross the border without paperwork, [how to explain...] </p>
+          $("#modalBody").html(`<p> A DNA profile identifies a handful of specific genetic markers from your DNA. These markers can be compared to markers in the same location in other DNA profiles to determine if a genetic match exist between the two. </p>
           `);
           break;
     case "popupCircumstances":
@@ -71,6 +71,21 @@ function fillModal(id) {
           $("#modalBody").html(`<p> DNA testing is entirely optional. Under no circumstances can the government <i>require</i> you to provide a DNA sample in order to receive a family based visa.</p> <br> <p> However, if you are otherwise unable to provide credible evidence of your relationship, you may have no choice but to withdraw your appliation or submit to DNA testing. </p>
           `);
           break;
+    case "popupRelative":
+            $("#modalTitle").text("Family Members Eligible for DNA Testing");
+            $("#modalBody").html(`<p> DNA testing can only be used to prove the existence of relationships between a parent and child or two siblings. (9 FAM 601.11) Proof of genetic relationship between more distant relatives, such as cousins, aunt/uncle and niece/nephew, can only be used as supporting evidence to improve the accuracy of other, more direct tests. </p>
+            `);
+            break;
+    case "popupProof":
+            $("#modalTitle").text("Other Forms of Proof Besides DNA Testing");
+            $("#modalBody").html(`<p> DNA testing should only be used if there is a lack of sufficient alternative evidence of the genetic relationship. Alternative proof may include a birth certificate or other such documentation and varies based on the specifics of your circumstance. For more on supporting documentation, click <a href="https://www.uscis.gov/family/family-of-us-citizens/bringing-children-sons-and-daughters-to-live-in-the-united-states-as-permanent-residents" target="_blank">here</a>.</p>
+            `);
+            break;
+    case "popupMatch":
+            $("#modalTitle").text("What is a 'match'?");
+            $("#modalBody").html(`<p> For the purposes of confirming a genetic relationship, the DNA tests must provide a specific degree of certainty in order to be considered sufficient to support the existance of a relationship. (9 FAM 601.11) In parent-child relationships, the results must show a 99.5% of certainty or greater to be considered sufficient.</p> </br><p> Sibling-sibling tests must exceed 90% certainty to be considered "probative" evidence, but only if there is less than a 9% match is the test considered proof that a relationship <i>does not</i> exist. </p>
+            `);
+              break;
     default:
       alert("Something went wrong!");
       break;
