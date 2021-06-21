@@ -43,7 +43,7 @@ function propogateChoices(id) {
     case "2":
       var li = $("<li>").text("I am sponsoring my relative's visa.").attr("data-id", 5).addClass("item i01");
       var li2 = $("<li>").text("I need a Consular Report of Birth Abroad for my child.").attr("data-id", 9).addClass("item i02");
-      var li3 = $("<li>").text("I need a Consular Report of Birth Abroad for my child.").attr("data-id", 11).addClass("item i03");
+      // var li3 = $("<li>").text("I need a Consular Report of Birth Abroad for my child.").attr("data-id", 11).addClass("item i03");
       // var li4 = $("<li>").text("I have a family member who has been detained by Customs and Border Patrol").attr("data-id", 8).addClass("item i04");
       $("#textChoices").append(li, li2, li3);
       fadeInList();
