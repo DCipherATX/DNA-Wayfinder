@@ -223,10 +223,10 @@
                             "name":"<div class = 'node-text green-box'><p> Yes. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
                             "children": [
                               {
-                                "name":"<div class = 'node-text grey-box'><p> Was your mother married at the time of birth? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                "name":"<div class = 'node-text grey-box'><p> Was your mother married to one of your genetic parents at the time of birth? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
                                 "children": [
                                   {
-                                    "name":"<div class = 'node-text'><p> Yes, to one of my genetic parents. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                    "name":"<div class = 'node-text'><p> Yes. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
                                     "children": [
                                       {
                                       "name": "<div class = 'node-text'><p> Is that genetic parent a U.S. citizen? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
@@ -252,18 +252,10 @@
                                     ]
                                   },
                                   { 
-                                    "name":"<div class = 'node-text'><p> Yes, to someone who is not one of my genetic parents. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
+                                    "name":"<div class = 'node-text'><p> No. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
                                     "children": [
                                       { 
-                                        "name":"<div class = 'node-text red-box'><p> You are considered to be a child born out of wedlock to a U.S. citizen mother. </p></div>"
-                                      }
-                                    ]
-                                  },
-                                  { 
-                                    "name":"<div class = 'node-text'><p> No, not at all. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
-                                    "children": [
-                                      { 
-                                        "name":"<div class = 'node-text red-box'><p> You are considered to be a child born out of wedlock to a U.S. citizen mother. </p></div>"
+                                        "name":"<div class = 'node-text red-box'><p> You are considered a child born to a U.S. citizen mother out of wedlock. </p></div>"
                                       }
                                     ]
                                   }
@@ -272,7 +264,66 @@
                             ]
                           },
                           {
-                            "name":"<div class = 'node-text red-box'><p> No. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                            "name":"<div class = 'node-text red-box'><p> No. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                            "children": [
+                              {
+                                "name":"<div class = 'node-text grey-box'><p> Was your mother married to one of your genetic parents at the time of birth? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                "children": [
+                                  {
+                                    "name":"<div class = 'node-text'><p> Yes. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                    "children": [
+                                      {
+                                      "name": "<div class = 'node-text'><p> Is that genetic parent a U.S. citizen? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                      "children": [
+                                        {
+                                          "name": "<div class = 'node-text'><p> Yes. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                          "children": [
+                                            {
+                                              "name": "<div class = 'node-text red-box'><p> You are not eligible for citizenship through parentage. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "<div class = 'node-text' red-box><p> No. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                          "children": [
+                                            {
+                                              "name": "<div class = 'node-text red-box'><p> You are considered to be a child born in wedlock to a U.S. citizen mother. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                      }
+                                    ]
+                                  },
+                                  { 
+                                    "name":"<div class = 'node-text'><p> No. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
+                                    "children": [
+                                      { 
+                                        "name":"<div class = 'node-text red-box'><p> Are either of your genetic parents a U.S. citizen? </p></div>",
+                                        "children": [
+                                          { 
+                                            "name":"<div class = 'node-text'><p> Yes. </p> </div>",
+                                            "children": [
+                                              {
+                                                "name":"<div class = 'node-text'><p> You are considered a child born out of wedlock to a U.S. citizen parent. </p> </div>"
+                                              }
+                                            ]
+                                          },
+                                          { 
+                                            "name":"<div class = 'node-text'><p> No. </p> </div>",
+                                            "children": [
+                                              {
+                                                "name":"<div class = 'node-text'><p> You are not eligible for U.S. citizenship through parentage. </p> </div>"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ] 
                       }
@@ -287,7 +338,25 @@
                       "name":"<div class = 'node-text'><p> Both my genetic parents are U.S. citizens.  </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
                       "children": [
                         {
-                          "name":"<div class = 'node-text red-box'><p> Are your parents married? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                          "name":"<div class = 'node-text red-box'><p> Are your genetic parents married? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                          "children": [
+                            {
+                              "name": "<div class = 'node-text'><p> Yes. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                              "children": [
+                                {
+                                  "name": "<div class = 'node-text red-box'><p> You are considered to be a child born to two U.S. citizens in wedlock. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "<div class = 'node-text' red-box><p> No. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                              "children": [
+                                {
+                                  "name": "<div class = 'node-text red-box'><p> You are considered to be a child born out of wedlock to a U.S. citizen mother. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                }
+                              ]
+                            }
+                          ]
                         } 
                       ]  
                     },
@@ -295,20 +364,82 @@
                       "name":"<div class = 'node-text'><p> Only one of my genetic parents is a U.S. citizen. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
                       "children": [
                         {
-                          "name":"<div class = 'node-text red-box'><p>  </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                          "name":"<div class = 'node-text red-box'><p> My genetic mother is a U.S. citizen. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
                           "children": [
                             {
-                              "name":"<div class = 'node-text red-box'><p> You are considered to be a child of two U.S. citizens. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                              "name":"<div class = 'node-text red-box'><p> Who is your genetic father? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                              "children": [
+                                {
+                                  "name":"<div class = 'node-text red-box'><p> An anonymous sperm donor. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                  "children": [
+                                    {
+                                      "name":"<div class = 'node-text red-box'><p> You are considered a child born out of wedlock to a U.S. citizen mother.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name":"<div class = 'node-text red-box'><p> My mother's husband who is not a U.S. citizen.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                  "children": [
+                                    {
+                                      "name":"<div class = 'node-text red-box'><p> You are considered a child born in wedlock to a U.S. citizen mother and non-citizen father. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                    }
+                                  ]
+                                }
+                              ]
                             } 
                           ]                         
-                        } 
+                        },
+                        {
+                          "name":"<div class = 'node-text red-box'><p> My genetic father is a U.S. citizen. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                          "children": [
+                            {
+                              "name":"<div class = 'node-text red-box'><p> Who is your genetic mother? </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                              "children": [
+                                {
+                                  "name":"<div class = 'node-text red-box'><p> An anonymous egg donor. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                  "children": [
+                                    {
+                                      "name":"<div class = 'node-text red-box'><p> You are considered to be a child born out of wedlock to a U.S. citizen father.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name":"<div class = 'node-text red-box'><p> My father's wife who is not a U.S. citizen.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>",
+                                  "children": [
+                                    {
+                                      "name":"<div class = 'node-text red-box'><p> You are considered a child born in wedlock to a U.S. citizen mother and non-citizen father. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                    }
+                                  ]
+                                }
+                              ]
+                            } 
+                          ]                       
+                        }  
                       ]  
                     },
                     { 
                       "name":"<div class = 'node-text red-box'><p> Neither of my genetic parents is a U.S. citizen. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
                       "children": [
                         { 
-                          "name":"<div class = 'node-text'><p> Is one of your genetic parents married to a U.S. citizen who is your legal parent? </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>"
+                          "name":"<div class = 'node-text'><p> Is one of your genetic parents married to a U.S. citizen who is your legal parent? </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></div>",
+                          "children": [
+                            {
+                              "name" :"<div class = 'node-text'><p> Yes. </p> </div>",
+                              "children": [
+                                {
+                                  "name":"<div class = 'node-text red-box'><p> You are considered a child born in wedlock to a U.S. citizen father. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                }
+                              ]
+                            },
+                            {
+                              "name" :"<div class = 'node-text'><p> No. </p> </div>",
+                              "children": [
+                                {
+                                  "name":"<div class = 'node-text red-box'><p> You are not eligible for citizenship through parentage. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'> </div>"
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
