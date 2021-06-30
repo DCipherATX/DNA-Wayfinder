@@ -18,21 +18,21 @@
                         "name": "<div class = 'node-text grey-box'><p> Both samples will be returned to the laboratory and used to prepare <span class = 'popup-text popup' id = 'popupDNAprofile'>DNA profiles</span>. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                         "children": [
                           {
-                            "name": "<div class = 'node-text'><p> DNA profiles are compared to determine whether there is a genetic relationship. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+                            "name": "<div class = 'node-text'><p>Your DNA profile will be compared with that of your U.S. based family member to determine if a <span class = 'popup-text popup' id='popupMatch'>sufficient match</span> exists.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                             "children": [
                               {
-                                "name": "<div class = 'node-text green-box'><p> If there is greater than a 99.5% match, your relationship will be confirmed. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+                                "name": "<div class = 'node-text green-box'><p> If there is a sufficient match, your relationship will be confirmed. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                                 "children": [
                                   {
-                                    "name": "<div class = 'node-text grey-box'><p> Results will returned to the Consulate or Embassy and the application process will continue. <span class = 'popup-text popup' id='popupPos'> What next?</span></p></div>"
+                                    "name": "<div class = 'node-text'><p>Results will be sent back to the Embassy or Consulate and application process continues.<span class = 'popup-text popup' id='popupPos'> What next?</span></p></div>"
                                   }
                                 ]
                               },
                               {
-                                "name": "<div class = 'node-text red-box'><p> If there is a less than 99.5% match, your relationship will be considered unconfirmed. </p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+                                "name": "<div class = 'node-text red-box'><p> If there is not a sufficient match, your relationship will be considered unconfirmed.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                                 "children": [
                                   {
-                                    "name": "<div class = 'node-text grey-box'><p> Results will be returned to the Consulate or Embassy. The application will likely be denied. <span class = 'popup-text popup' id='popupNeg'> What next?</span></p></div>"
+                                    "name": "<div class = 'node-text'><p>Results will be sent back to the Embassy or Consulate, but application will likely not be accepted. <span class = 'popup-text popup' id='popupNeg'> What next?</span></p></div>"
                                   }
                                 ]
                               }

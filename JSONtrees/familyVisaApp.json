@@ -2,7 +2,7 @@
           { "name": "<div class = 'node-text grey-box'><p>Has your U.S. based family member has already initiated the <span class = 'popup-text popup' id='popupApplication'>application process</span> in the United States?</p></div>",
             "children": [
               { 
-                "name": "<div class = 'node-text green-box'><p>Yes, <span class = 'popup-text popup' id='popupRelative'>U.S. based family member</span> has already begun the application process.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+                "name": "<div class = 'node-text green-box'><p>Yes, my <span class = 'popup-text popup' id='popupRelative'>U.S. based family member</span> has already begun the application process.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                 "children": [
                   {
                     "name":"<div class = 'node-text grey-box'><p> If you are unable to otherwise provide <span class = 'popup-text popup' id='popupProof'>proof</span> of your familial relationship, you have the option to undergo DNA testing.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
@@ -37,7 +37,7 @@
                                                 "name": "<div class = 'node-text red-box'><p> If there is not a sufficient match, your relationship will be considered unconfirmed.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                                                 "children": [
                                                   {
-                                                    "name": "<div class = 'node-text'><p>Results will be sent back to the Embassy or Consulate, but application process will likely not be accepted. <span class = 'popup-text popup' id='popupNeg'> What next?</span></p></div>"
+                                                    "name": "<div class = 'node-text'><p>Results will be sent back to the Embassy or Consulate, but application will likely not be accepted. <span class = 'popup-text popup' id='popupNeg'> What next?</span></p></div>"
                                                   }
                                                 ]
                                               }

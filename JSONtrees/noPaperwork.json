@@ -94,11 +94,11 @@
             "text": "While detained, I provided law enforcement a blood and/or saliva sample.",
             "children": [
               {
-                "name": "<div class = 'node-text grey-box'> Immigration officials will search a federal database and determine whether your profile is stored there. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+                "name": "<div class = 'node-text grey-box'> Immigration officials will search a <span class = 'popup-text popup' id='popup4'>federal database</span> and determine whether your profile is stored there. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                 "text": "Immigration officials will search a federal database to confirm that you have previously provided a DNA sample.",
                 "children": [
                   {
-                    "name": "<div class = 'node-text yellow-box'><p>If your DNA profile has already been stored in CODIS, you may not be required to submit another sample.</p> </div>"
+                    "name": "<div class = 'node-text yellow-box'><p>If your <span class = 'popup-text popup' id='popup6'>DNA profile</span> has already been stored in CODIS, you may not be required to submit another sample.</p> </div>"
                   }
                 ]
               }
@@ -191,11 +191,11 @@
             "text": "I am not sure if I provided law enforcement a blood and/or saliva sample while detained",
             "children": [
               {
-                "name": "<div class = 'node-text grey-box'>Immigration officials will search a federal database and determine whether your profile is stored there. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+                "name": "<div class = 'node-text grey-box'>Immigration officials will search a <span class = 'popup-text popup' id='popup4'>federal database</span> and determine whether your profile is stored there. </p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
                 "text": "Immigration officials will search a federal database to determine if your DNA profile is already stored there.",
                 "children": [
                   {
-                    "name": "<div class = 'node-text yellow-box'><p>If your DNA profile has already been stored in CODIS, you may not be required to submit another sample.</p> </div>",
+                    "name": "<div class = 'node-text yellow-box'><p>If your <span class = 'popup-text popup' id='popup6'>DNA profile</span> has already been stored in CODIS, you may not be required to submit another sample.</p> </div>",
                     "text": "If your DNA profile has already been stored in CODIS, you may not be required to submit another sample."
                   }
                 ]
