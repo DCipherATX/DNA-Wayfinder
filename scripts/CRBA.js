@@ -107,7 +107,45 @@ function fillModal(id) {
       $("#modalBody").html(`<p>Your parents are considered married if they are legally married to each other at the time of the person's conception or birth within 300 days of the end of the marriage.</p>
       `);
       break;
-    default:
+    case "popupBirthMother":
+      $("#modalTitle").text("Who is my birth mother?");
+      $("#modalBody").html(`<p>-	Your birth mother is the woman who carried and delivered you as a baby. This person may also be referred to your gestational mother. 8 FAM 301.4-1(D)(1).</p>
+      `);
+        break;
+    case "popupGeneticMother":
+      $("#modalTitle").text("Who is my genetic mother?");
+      $("#modalBody").html(`<p>Your genetic mother is the woman whose egg was used in conception.</p></br><p>Anonymous egg donors <b>cannot</b> transmit U.S. citizenship, even if there is allegedly proof that the donor was a U.S. citizen.</p>
+      `);
+      break;
+    case "popupGeneticFather":
+      $("#modalTitle").text("Who is my genetic father?");
+      $("#modalBody").html(`<p>Your genetic father is the man whose sperm was used in conception.</p></br><p>Anonymous sperm donors cannot transmit U.S. citizenship, even if a sperm bank claims to have proof that the donor is a U.S. citizen.</p>
+      `);
+      break;
+    case "popupLegalParent":
+      $("#modalTitle").text("Who is my legal parent?");
+      $("#modalBody").html(`<p>Your legal parents are the people that raised you and are recognized as being your parents in the country in which you were born. Most of the time, your legal parents are those listed on your birth certificate or Consular Report of Birth Abroad.</p></br>
+      <p>However, the use of assisted reproductive technology complicates legal parent status. Depending on the location of your birth and the laws of that country, a non-genetic parent may have needed to take some additional steps to ensure that they were recognized as your legal parent. For example, some countries require parents to request a pre-birth order acknowledging their legal responsibilities with the child, while others may require modifications to the birth certificate after the birth.</p>
+      `);
+      break;
+    case "popupClearConvincing":
+      $("#modalTitle").text("Higher standard for children born to U.S. citizen fathers out of wedlock.");
+      $("#modalBody").html(`<p>-	For children born to U.S. citizen fathers out of wedlock, “clear and convincing evidence” of a blood relationship is required. This is a higher burden than normal and thus increases the odds that DNA testing will be necessary to prove the existence of the relationship.</p>
+      `);
+      break;
+    case "popupSurrogate":
+      $("#modalTitle").text("What is a 'surrogate'?");
+      $("#modalBody").html(`<p>A woman who gives birth to a child who is not the legal parent of the child at the time of the child’s birth in the location of the birth.</p></br>
+     <p>A surrogate’s citizenship is irrelevant to the child’s citizenship analysis. 8 FAM 304.3-1(a).</p>
+      `);
+      break;
+    case "popupGeneticParents":
+      $("#modalTitle").text("What is a 'genetic parent'?");
+      $("#modalBody").html(`<p>Your genetic father is the man whose sperm was used in conception.</p></br>
+      <p>Your genetic mother is the woman whose egg was used in conception.</p>
+      `);
+    break;
+    default:      
       alert("Sorry! There was an error");
       break;
   }

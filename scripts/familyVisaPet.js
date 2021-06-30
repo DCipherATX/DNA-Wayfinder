@@ -49,14 +49,19 @@ function fillModal(id) {
       break;
       case "popupDNAprofile":
         $("#modalTitle").text("What is a DNA profile?");
-        $("#modalBody").html(`<p> A DNA profile identifies a handful of specific genetic markers from your DNA. These markers can be compared to markers in the same location in other DNA profiles to determine if a genetic match exists. </p> <br> <p> [Disclaimer about what these markers can be used for?]</p><br>
+        $("#modalBody").html(`<p> A DNA profile identifies a handful of specific genetic markers from your DNA. These markers can be compared to markers in the same location in other DNA profiles to determine if a genetic match exists. </p> <br>
         `);
         break;
       case "popupSample":
           $("#modalTitle").text("DNA samples");
-          $("#modalBody").html(`<p> A DNA sample is generally collected via buccal swab - taking saliva from the mouth. Blood draws may also be approved in certain situations. 28 CFR 28.12(f)(1) </p>
+          $("#modalBody").html(`<p> A DNA sample is generally collected via buccal swab - taking saliva from the mouth. Blood draws may also be approved in certain situations. <a href="https://www.law.cornell.edu/cfr/text/28/28.12" target="_blanK">28 CFR 28.12(f)(1)</a> </p>
           `);
           break;
+      case "popupMatch":
+        $("#modalTitle").text("What is a 'match'?");
+        $("#modalBody").html(`<p> <p> For the purposes of confirming a genetic relationship, the DNA tests must provide a specific degree of certainty in order to be considered sufficient to support the existance of a relationship. <a href="https://fam.state.gov/fam/09FAM/09FAM060111.html" target="_blank">9 FAM 601.11</a> In parent-child relationships, the results must show a 99.5% of certainty or greater to be considered sufficient.</p> </br><p> Sibling-sibling tests must exceed 90% certainty to be considered "probative" evidence, but only if there is less than a 9% match is the test considered proof that a relationship <i>does not</i> exist. </p>
+        `);
+        break;
     default:
       alert("something went wrong");
       break;

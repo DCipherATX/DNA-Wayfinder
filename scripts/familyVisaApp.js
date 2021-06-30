@@ -58,7 +58,7 @@ function fillModal(id) {
       break;
     case "popupDNA":
         $("#modalTitle").text("DNA samples");
-        $("#modalBody").html(`<p> A DNA sample is generally collected via buccal swab - taking saliva from the mouth. Blood draws may also be approved in certain situations. 28 CFR 28.12(f)(1) </p>
+        $("#modalBody").html(`<p> A DNA sample is generally collected via buccal swab - taking saliva from the mouth. Blood draws may also be approved in certain situations. <a href="https://www.law.cornell.edu/cfr/text/28/28.12" target="_blanK">28 CFR 28.12(f)(1)</a></p>
         `);
         break;
     case "popupProfile":
@@ -73,7 +73,7 @@ function fillModal(id) {
           break;
     case "popupRelative":
             $("#modalTitle").text("Family Members Eligible for DNA Testing");
-            $("#modalBody").html(`<p> DNA testing can only be used to prove the existence of relationships between a parent and child or two siblings. (9 FAM 601.11) Proof of genetic relationship between more distant relatives, such as cousins, aunt/uncle and niece/nephew, can only be used as supporting evidence to improve the accuracy of other, more direct tests. </p>
+            $("#modalBody").html(`<p> DNA testing can only be used to prove the existence of relationships between a parent and child or two siblings. <a href="https://fam.state.gov/fam/09FAM/09FAM060111.html" target="_blank">9 FAM 601.11</a> Proof of genetic relationship between more distant relatives, such as cousins, aunt/uncle and niece/nephew, can only be used as supporting evidence to improve the accuracy of other, more direct tests. </p>
             `);
             break;
     case "popupProof":
@@ -83,7 +83,7 @@ function fillModal(id) {
             break;
     case "popupMatch":
             $("#modalTitle").text("What is a 'match'?");
-            $("#modalBody").html(`<p> For the purposes of confirming a genetic relationship, the DNA tests must provide a specific degree of certainty in order to be considered sufficient to support the existance of a relationship. (9 FAM 601.11) In parent-child relationships, the results must show a 99.5% of certainty or greater to be considered sufficient.</p> </br><p> Sibling-sibling tests must exceed 90% certainty to be considered "probative" evidence, but only if there is less than a 9% match is the test considered proof that a relationship <i>does not</i> exist. </p>
+            $("#modalBody").html(`<p> For the purposes of confirming a genetic relationship, the DNA tests must provide a specific degree of certainty in order to be considered sufficient to support the existance of a relationship. <a href="https://fam.state.gov/fam/09FAM/09FAM060111.html" target="_blank">9 FAM 601.11</a> In parent-child relationships, the results must show a 99.5% of certainty or greater to be considered sufficient.</p> </br><p> Sibling-sibling tests must exceed 90% certainty to be considered "probative" evidence, but only if there is less than a 9% match is the test considered proof that a relationship <i>does not</i> exist. </p>
             `);
               break;
     default:

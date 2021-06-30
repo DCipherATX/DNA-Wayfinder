@@ -21,7 +21,7 @@ function fillModal(id) {
       break;
     case "popup2":
       $("#modalTitle").text("No DNA collection required");
-      $("#modalBody").html(`<p>  Since you qualify for an exemption, you should not be required to provide a DNA sample. </p><br><p> There are many free or low-cost immigration services available for migrants in need of legal advice. The Immigration Advocacy Network's <a href= "https://www.immigrationadvocates.org/legaldirectory/" target = "_blank"><b>National Immigration Legal Services Directory</b></a> is an excellent resource for identifying and contact legal aid organizations. </p>
+      $("#modalBody").html(`<p>  Since you qualify for an exemption, you should not be required to provide a DNA sample.</p><br><p> There are many free or low-cost immigration services available for migrants in need of legal advice. The Immigration Advocacy Network's <a href= "https://www.immigrationadvocates.org/legaldirectory/" target = "_blank"><b>National Immigration Legal Services Directory</b></a> is an excellent resource for identifying and contact legal aid organizations. </p>
      `);
       break;
     case "popup3":
@@ -41,7 +41,7 @@ function fillModal(id) {
       break;
     case "popup6":
         $("#modalTitle").text("DNA Profile");
-        $("#modalBody").html(`<p> A DNA profile identifies a handful of specific genetic markers from your DNA. These markers can be compared to markers in the same location in other DNA profiles to determine if a genetic match exist between the two. </p> <br> <p> For those who cross the border without paperwork, [how to explain...] </p>
+        $("#modalBody").html(`<p> A DNA profile identifies a handful of specific genetic markers from your DNA. These markers can be compared to markers in the same location in other DNA profiles to determine if a genetic match exist between the two. </p>
         `);
         break;
     case "popup7":
