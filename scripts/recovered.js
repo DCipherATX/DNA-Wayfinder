@@ -1,3 +1,4 @@
+var language = "english";
 var tree = "JSONtrees/recovered.json";
 var levels = 7;
 treeHeight = 700; 

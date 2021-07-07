@@ -1,3 +1,4 @@
+var language = "english";
 var tree = "JSONtrees/familyVisaApp.json";
 var levels = 9;
 treeHeight = 1000;

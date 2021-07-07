@@ -3,6 +3,7 @@ let recap = "";
 let translate = 0;
 let expanded = false;
 //show default view
+console.log(language + "llll");
 if (tree) { redraw(tree) }
 
 // ****************** Color ***************************
@@ -299,8 +300,17 @@ function update(source) {
 //******   Event Listeners   *********
 //Redirect to home page on back button click
 $("#homeBtn").on("click", function () {
-  window.location.href = "index.html";
+//   setTimeout(function(){ alert(language + " before redirect");
+// other }, 3000);
+  if(language == "english") {
+    window.location.href = "index.html";
+  }
+  else {
+    window.location.href = "../homeEspanol.html";
+  }
+  
 });
+
 
 //Change from right arrow to left arrow on click
 $(document).on("click", ".txt", function (e) {
@@ -378,3 +388,4 @@ function buildRecap(d) {
   recap += recapArray[recapArray.length - 1];
   // console.log(recap);
 }
+

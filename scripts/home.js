@@ -1,3 +1,5 @@
+
+
 //Animates the header to fade in and expand/shrink
 $("#titleHeader").css("opacity", 0);
 $.when($("#titleHeader").fadeTo(1000, 1))

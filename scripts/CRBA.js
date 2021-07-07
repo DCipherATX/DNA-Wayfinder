@@ -1,5 +1,5 @@
+var language = "english";
 var tree = "JSONtrees/CRBATree.json";
-// var tree = "JSONtrees/demoTree.json";
 var levels = 12;
 treeHeight = 1000;
 

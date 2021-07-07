@@ -1,3 +1,4 @@
+var language = "english";
 var tree = "JSONtrees/reunification.json";
 var levels = 4;
 treeHeight = 700;
