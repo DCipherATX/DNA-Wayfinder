@@ -2,6 +2,7 @@ var language = "spanish";
 var tree = "../JSONtreesESP/familyBorder.json";
 var levels = 12; 
 treeHeight = 1000;
+console.log("family border in esp");
 
 function fillModal(id) {
   switch(id) {
