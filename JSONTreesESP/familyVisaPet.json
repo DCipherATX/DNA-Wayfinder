@@ -1,9 +1,9 @@
 [
   {
-    "name": "<div class = 'node-text'><p> I have a family member who is seeking a <span class = 'popup-text popup' id='popupFamilyVisa'>family-based visa</span>.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+    "name": "<div class = 'node-text'><p> Tengo un miembro de mi familia que quiere una <span class = 'popup-text popup' id='popupFamilyVisa'>visa basada en la familia</span>.</p><i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
     "children": [
       {
-        "name": "<div class = 'node-text'><p> To initiate the process, you must arrange for DNA collection at an <span class = 'popup-text popup' id='popupLab'>AABB-accredited laboratory</span>.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
+        "name": "<div class = 'node-text'><p> Para iniciar el proceso, usted tiene que organizar para la recogida de ADN en <span class = 'popup-text popup' id='popupLab'>un laboratorio acreditado por AABB</span>.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
         "children": [
           {
             "name": "<div class = 'node-text green-box'><p> The laboratory will collect your <span class = 'popup-text popup' id='popupSample'>DNA sample</span>.</p> <i class='fas fa-arrow-right'></i><i class='fas fa-arrow-left hidden'></i></div>",
