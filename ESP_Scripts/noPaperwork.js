@@ -1,5 +1,5 @@
 var language = "spanish";
-var tree = "../JSONtreesESP/noPaperwork.json";
+var tree = "../JSONTreesESP/noPaperwork.json";
 var levels = 9;
 treeHeight = 1000;
 
