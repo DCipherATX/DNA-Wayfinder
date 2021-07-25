@@ -115,12 +115,12 @@ function update(source) {
       d.data.clauses === 3
         ? "translateX(10px) translateY(-" + (textbox_h / 2 - 26) + "px)"
         : d.data.yadjust === "down"
-          ? "translateX(0px) translateY(-" + (textbox_h / 2 - 12) + "px)"
+          ? "translateX(0px) translateY(-" + (textbox_h / 2 - 2) + "px)"
           : d.data.yadjust === "up"
             ? "translateX(10px) translateY(" + (textbox_h / 2 - 20) + "px)"
             : d.data.type === "law"
               ? "translateX(10px) translateY(-" + (textbox_h / 2 - 10) + "px)"
-              : "translateX(-5px) translateY(-20px)"
+              : "translateX(-65px) translateY(-30px)"
     )
     .append("xhtml:div")
     .style("fill", "black")
@@ -140,14 +140,14 @@ function update(source) {
     .delay(100)
     .duration(duration * .7)
     .attr("transform", function (d) {
-      return "translate(" + d.y / 1.0 + "," + d.x / 1.0 + ")";
+      return "translate(" + d.y / 1 + "," + d.x / 1 + ")";
     });
 
   nodeUpdate
     .select("rect.node")
     .attr("class", "node-style")
     .attr("width", (d) => (d.data.type === "law" ? textbox_w : 26))
-    .attr("height", (d) => 25)
+    .attr("height", (d) => 35)
     .attr("rx", 12)
     .attr("ry", 12)
     .style(

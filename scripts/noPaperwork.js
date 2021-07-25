@@ -1,6 +1,6 @@
 var language = "english";
 var tree = "JSONtrees/noPaperwork.json";
-var levels = 12;
+var levels = 9;
 treeHeight = 1000;
 
 

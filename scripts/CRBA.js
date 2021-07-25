@@ -1,6 +1,6 @@
 var language = "english";
 var tree = "JSONtrees/CRBATree.json";
-var levels = 12;
+var levels = 6;
 treeHeight = 1000;
 
 

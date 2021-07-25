@@ -1,7 +1,7 @@
 var language = "spanish";
 var tree = "../JSONtreesESP/familyVisaPet.json";
 var levels = 9;
-treeHeight = 850;
+treeHeight = 500;
 
 
 function fillModal(id) {
